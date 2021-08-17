@@ -1,0 +1,68 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #aacfd0;
+  color: darkblue;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.poke-logo {
+  width: 92%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.poke-nav {
+  width: 92%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.poke-nav button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  margin: 3px;
+  padding: 7px;
+  box-shadow: darkblue;
+  border: 3px darkblue;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.poke-nav button:disabled {
+  background-color: lightblue;
+  color: lightgrey;
+  cursor: not-allowed;
+  border: 3px lightblue;
+  border-radius: 3px;
+}
+
+.poke-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poke-api-error {
+  color: red;
+  font-weight: bold;
+  font-size: 16pt;
+  display: grid;
+  justify-content: center;
+}
+
+.poke-loading {
+  color: black;
+  font-weight: bold;
+  font-size: 16pt;
+  display: grid;
+  justify-content: center;
+}
