@@ -5,12 +5,12 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
+    "@testing-library/react-hooks": "^7.0.0",
     "@testing-library/user-event": "^12.5.0",
     "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,10 +37,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.14.5",
-    "@babel/preset-react": "^7.14.5",
-    "babel-jest": "^27.0.2",
-    "jest": "^27.0.4",
-    "react-test-renderer": "^17.0.2"
+    "@babel/plugin-syntax-jsx": "^7.14.5"
   }
 }

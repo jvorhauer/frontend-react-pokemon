@@ -51,7 +51,7 @@ function App() {
   return (
     <main role="main" className="main-container">
       <div className="poke-logo">
-        <img src={logo} alt="PokeAPI logo" />
+        <img id="poke-logo" src={logo} alt="PokeAPI logo" />
       </div>
       <section className="poke-nav">
         <div>
